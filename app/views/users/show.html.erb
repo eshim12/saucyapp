@@ -1,0 +1,4 @@
+<p>Hi <%=@user.name%>, your recommended sauce is <%=@meal.sauce.name%>. You just got sauced!</p>
+<form>
+  <button formaction="/users/<%=@user.id%>/edit">Get Re-Sauced!</button>
+</form>
